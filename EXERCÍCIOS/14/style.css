@@ -1,0 +1,41 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+    /* font-family
+    Arial, Helvetica, sans-serif  */
+
+   
+
+    /* font-size
+    1em = 16px = PADRAO font-size */
+
+     
+    /* font-weight
+        vai de 100 - 900       
+         WEIght = PESO
+         WIdht  = largura
+         HEIght = altura    */
+
+    
+    /* font-style
+    normal ; italic          */
+
+    /* font
+       font style -> weight -> size -> family
+    */
+
+    font: normal 600 1em Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font: italic 800 2em Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font: italic 800 2em Arial, Helvetica, sans-serif;
+}
+
+    

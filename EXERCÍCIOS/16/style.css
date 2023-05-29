@@ -1,0 +1,38 @@
+/* 
+   em HTML é id = em CSS é # 
+   em HTML é class = em CSS é . 
+                                */
+
+/* 
+   id = UM 
+   class = VÁRIOS 
+                                */
+
+
+
+body {
+    background-color: rgb(184, 255, 177);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    text-align: center;
+    font: normal 700 38px Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(14, 54, 11);
+}
+
+.basico {
+    background-color: rgb(67, 172, 93);
+}
+
+.avancado {
+    background-color: rgb(118, 204, 123);
+}
+h1 {
+    color: rgb(27, 124, 18);
+}
+
+h2 {
+    color: rgb(14, 54, 11);
+}

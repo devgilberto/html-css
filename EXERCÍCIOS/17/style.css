@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(247, 146, 146);
+}
+
+div:hover {
+    background-color: rgb(68, 13, 13);
+}
+
+/* div:hover {} = ANIMAÇÃO nas CAIXAS DIV */
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: rgb(145, 3, 3);
+    width: 40px;
+}
+
+div {
+    display: inline-block;
+    color: rgb(53, 16, 16);
+    background-color: rgb(236, 62, 62);
+    border: 2px solid white;
+    height: 150px;
+    width: 150px;
+}
+
+/* display: = POSIÇÃO das DIVS */
+/* border: = px solid + cor */
+/* height: = ALTURA I I I I I I I I I  */
+/* width: = LARGURA ----------------- */ 

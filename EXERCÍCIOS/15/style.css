@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+
+body {
+    font: italic 600 1em Arial, Helvetica, sans-serif;
+    color: brown;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: Kaushan Script, sans-serif ;
+    color: blue;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: Kaushan Script, sans-serif;
+    font-size: 2em;
+}
