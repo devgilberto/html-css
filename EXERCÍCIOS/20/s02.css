@@ -1,0 +1,21 @@
+body {
+    background-image: url("imagens/wallpaper002.jpg");
+    background-size: 100%;
+}
+
+header {
+    background-image: url("imagens/pattern002.png");
+    background-repeat: repeat-x;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+main {
+    background-image: url("imagens/wallpaper004.jpg");
+    width: 800px;
+    height: 900px;
+    margin: auto;
+    margin-bottom: 40px;
+}
