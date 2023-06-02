@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.473);
+    position: relative;
+}
+
+td {
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+thead, tfoot {
+    background-color: rgb(219, 34, 219);
+}
+
+td.num {
+    text-align: right;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    background-color: rgb(209, 82, 209);
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.486);
+}
+
+th#estado {
+    width: 250px;
+}
+
+th#quant {
+    width: 50px;;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+thead th {
+    position: sticky;
+    top: -1px;
+    background-color: rgb(219, 34, 219);
+}
