@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color:  black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.452);
+}
+
+span#burguer {
+    display: block;
+    color: rgba(255, 255, 255, 0.753);
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    background-color: #8EAAFB;
+    color: black;
+}
+menu {
+    background-color: rgba(0, 0, 0, 0.842);
+    padding: 20px;
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.308);
+    text-transform: none;
+    transition: 0.25s ease;
+}
+
+ul {
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+ul li {
+    text-decoration: none;
+    margin: 0 0.75em 0 0.75em;
+}
+
+ul li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+ul:hover a {
+    color: #575757;
+}
+
+ul:hover a:hover {
+    color: #8EAAFB;
+    box-shadow: 0 2px 0 0 currentColor;
+}
+
+main {
+    width: 90vw;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: white;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+main article h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+main p {
+    text-align: justify;
+}
